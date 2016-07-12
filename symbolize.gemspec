@@ -17,7 +17,6 @@ Gem::Specification.new do |s|
   s.files = Dir.glob("{lib,spec}/**/*") + %w(README.md Rakefile)
   s.require_path = "lib"
 
-  s.rubygems_version = "1.3.7"
-  s.add_dependency("activesupport", ["~> 3.2"])
-  s.add_dependency("activemodel", ["~> 3.2"])
+  s.add_dependency("activesupport", ["< 5.1", ">= 4.0"])
+  s.add_dependency("activemodel", ["< 5.1", ">= 4.0"])
 end

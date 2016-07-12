@@ -24,7 +24,7 @@ end
 unless ENV["ONLY_AR"]
 
   require 'mongoid'
-  puts "Using Mongoid v#{Mongoid::VERSION}"
+  puts "Using Mongoid v#{Mongoid::Versioning}"
 
   Mongoid.configure do |config|
     #config.master = Mongo::Connection.new.db("symbolize_test")

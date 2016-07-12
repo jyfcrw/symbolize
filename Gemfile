@@ -15,9 +15,6 @@ group :test do
   gem 'activerecord-jdbcsqlite3-adapter', platform: :jruby
 
   gem 'i18n' #, '0.6.1'
-  gem 'activesupport', '3.2.13'
-  gem 'activerecord', '3.2.13'
-  gem 'activemodel', '3.2.13'
 
   if ENV["CI"]
     gem "coveralls", require: false
